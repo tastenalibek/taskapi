@@ -1,0 +1,19 @@
+# binary
+taskapi
+
+# env (keep .env.example, ignore real secrets)
+.env
+
+# go
+*.test
+*.out
+vendor/
+
+# os
+.DS_Store
+Thumbs.db
+
+# editors
+.idea/
+.vscode/
+*.swp
